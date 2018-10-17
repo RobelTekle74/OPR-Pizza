@@ -1,0 +1,12 @@
+.container{
+    background-color: #a73a2e;
+}
+.container-home-page{
+    background-color: #f2d794;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+.container-home-page p{
+    font-size: 25px;
+}
