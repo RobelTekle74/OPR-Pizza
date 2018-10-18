@@ -1,0 +1,29 @@
+body{
+    background-color: #c37738;
+}
+.container{
+    background-color: #a73a2e;
+}
+
+.home-page{
+    background-color: #f2d794;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-flow: row wrap;
+}
+    .home-page img{
+        width: 100%;
+    }
+.container-home-page p{
+    font-size: 25px;
+}
+.deals{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg-custom{
+    background-color: #c37738 !important;
+}
