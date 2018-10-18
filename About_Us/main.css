@@ -6,8 +6,8 @@
 }
 
 
-.text-center {
-    margin-bottom: 50px;
-    margin-top: 50px;
-
-  }
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
