@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Order Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="first row">
+            <h1 class="PageTitle my-5">Place Pizza Order</h1>
+        </div>
+        <form>
+            <h4 class="formTitle mt-5 mb-3">Order Info</h4>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputFirstName">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">                    
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputLastName">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail">Email</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="Email">                    
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPhoneNumber">Phone Number</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Phone Number">
+                </div>
+            </div>
+            <hr>
+            <h4 class="pizzaDetails">Pizza Details</h4>
+            <div class="container">
+                <form>
+                    <h5 class="mt-4">Delivery Options</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="Delivery" value="option1" checked>
+                        <label class="form-check-label" for="Delivery">
+                            Delivery
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="CarryOut" value="option1" checked>
+                        <label class="form-check-label" for="CarryOut">
+                            Carry Out
+                        </label>
+                    </div>
+                </form>
+                <form>
+                    <h5 class="mt-4">Cheese Options</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="NoCheese" value="option1" checked>
+                        <label class="form-check-label" for="NoCheese">
+                            No Cheese
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="RegularCheese" value="option1" checked>
+                        <label class="form-check-label" for="RegularCheese">
+                            Regular Cheese
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="ExtraCheese" value="option1" checked>
+                        <label class="form-check-label" for="ExtraCheese">
+                            Extra Cheese
+                        </label>
+                    </div>
+                </form>
+                <form>
+                    <h5 class="mt-4 mb-2">Topping Options</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Pepperoni
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                            Sausage
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <label class="form-check-label" for="defaultCheck3">
+                            Mushrooms
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                        <label class="form-check-label" for="defaultCheck4">
+                            Sautéed Onions
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <h4>Payment</h4>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    Credit card
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    Debit card
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+                <label class="form-check-label" for="exampleRadios3">
+                    PayPal
+                </label>
+            </div>
+            <div class="form-row mt-3">
+                <div class="form-group col-md-6">
+                    <label for="inputNameOnCard">Name on card</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="Full Name">
+                    <small class="text-muted">Full name as displayed on card</small>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputCCNumber">Credit card number</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Card Number">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="inputExpir">Expiration</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="Expiration">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputCVV">CVV</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="CVV">
+                </div>
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-lg btn-block my-5">Continue to checkout</button>
+        </form>
+    </div>
+    
+</body>
+</html>
