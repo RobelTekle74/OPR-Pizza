@@ -11,9 +11,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>Place Pizza Order</h1>
-        <h3>Order Info</h3>
+        <div class="first row">
+            <h1 class="PageTitle my-5">Place Pizza Order</h1>
+        </div>
         <form>
+            <h4 class="formTitle mt-5 mb-3">Order Info</h4>
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputFirstNmae">First Name</label>
@@ -33,10 +35,25 @@
                 </div>
             </div>
             <hr>
-            <h4>Pizza Details</h4>
+            <h4 class="pizzaDetails">Pizza Details</h4>
             <div class="container">
                 <form>
-                    <h5 class="my-2">Cheese Options</h5>
+                    <h5 class="mt-4">Delivery Options</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="Delivery" value="option1" checked>
+                        <label class="form-check-label" for="Delivery">
+                            Delivery
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="CarryOut" value="option1" checked>
+                        <label class="form-check-label" for="CarryOut">
+                            Carry Out
+                        </label>
+                    </div>
+                </form>
+                <form>
+                    <h5 class="mt-4">Cheese Options</h5>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="NoCheese" value="option1" checked>
                         <label class="form-check-label" for="NoCheese">
@@ -46,7 +63,7 @@
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="RegularCheese" value="option1" checked>
                         <label class="form-check-label" for="RegularCheese">
-                            Regular Ceese
+                            Regular Cheese
                         </label>
                     </div>
                     <div class="form-check">
@@ -55,6 +72,8 @@
                             Extra Cheese
                         </label>
                     </div>
+                </form>
+                <form>
                     <h5 class="mt-4 mb-2">Topping Options</h5>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -102,7 +121,7 @@
                     PayPal
                 </label>
             </div>
-            <div class="form-row">
+            <div class="form-row mt-3">
                 <div class="form-group col-md-6">
                     <label for="inputNameOnCard">Name on card</label>
                     <input type="text" class="form-control" id="inputFirstName" placeholder="Full Name">
@@ -124,7 +143,7 @@
                 </div>
             </div>
             <hr>
-            <button type="submit" class="btn btn-primary btn-lg btn-block my-5">Continue to checkout</button>
+            <button type="submit" class="btn btn-lg btn-block my-5">Continue to checkout</button>
         </form>
     </div>
     
