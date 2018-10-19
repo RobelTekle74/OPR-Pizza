@@ -11,3 +11,10 @@
     flex-direction: column;
     align-items: center;
 }
+
+.navigation{
+    background-color: #a73a2e;
+}
+.bg-custom{
+    background-color: #c37738 !important;
+}
