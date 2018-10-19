@@ -14,3 +14,9 @@ body {
     background-color: #A73A2E;
     color: white;
 }
+.navigation{
+    background-color: #a73a2e;
+}
+.bg-custom{
+    background-color: #c37738 !important;
+}
